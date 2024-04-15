@@ -35,7 +35,7 @@
             Padding="20"/>
                 <Entry x:Name="txtcom" />
 
-                <Button HorizontalOptions="Center" Text="Calcular"/>
+                <Button HorizontalOptions="Center" Text="Calcular" Clicked="btncal_Clicked"/>
 
 
             </VerticalStackLayout>
@@ -61,7 +61,7 @@
                     Padding="10"/>
                 <Entry x:Name="txtval" />
 
-                <Button HorizontalOptions="Center" Text="Saluar"/>
+                <Button HorizontalOptions="Center" Text="Saluar" Clicked="btnadd_Clicked"/>
 
 
             </VerticalStackLayout>
