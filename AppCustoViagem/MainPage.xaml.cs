@@ -29,6 +29,7 @@
            //double val = ;//
             string msg = $"O custo da viagem com o pedagio é R$";
             DisplayAlert("Resultado", msg, "Fechar");
+
         }
 
         private void btnped_Clicked(object sender, EventArgs e)
