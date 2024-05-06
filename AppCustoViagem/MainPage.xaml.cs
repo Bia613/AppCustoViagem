@@ -17,7 +17,7 @@
 
             double resu = (a/b)*c ;
 
-            string msg = $"O custo da viagem é R${resu}";
+            string msg = $"O custo total da viagem é R${resu}";
 
 
             DisplayAlert("Resultado", msg, "Fechar");
@@ -27,7 +27,7 @@
         {
             double d = Convert.ToDouble(txtval.Text);
            //double val = ;//
-            string msg = $"O custo da viagem com o pedagio é R$";
+            string msg = $"O custo total da viagem com o pedagio é R$";
             DisplayAlert("Resultado", msg, "Fechar");
 
         }
